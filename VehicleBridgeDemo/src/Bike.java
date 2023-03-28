@@ -2,13 +2,15 @@ public class Bike extends Vehicle{
 
     private Workshop paintWorkshop;
 
-//    public Bike(Workshop workshop1, Workshop workshop2) {
-//        super(workshop1, workshop2);
-//    }
+
 
     public Bike(Workshop workshop1, Workshop workshop2, Workshop paintWorkshop) {
         super(workshop1, workshop2);
         this.paintWorkshop = paintWorkshop;
+    }
+
+    public Bike(Workshop workshop1, Workshop workshop2) {
+        super(workshop1, workshop2);
     }
 
     @Override
